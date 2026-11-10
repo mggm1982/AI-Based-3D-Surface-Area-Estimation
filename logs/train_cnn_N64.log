@@ -1,0 +1,22 @@
+cnn_N64: 3,593,297 params, device mps, 4200 train / 897 val samples
+val MAPE of uncorrected MC (grey): 3.52%
+epoch   1  loss 0.0558  val MAPE 1.382%  (411s) *
+epoch   2  loss 0.0311  val MAPE 1.954%  (419s)
+epoch   3  loss 0.0281  val MAPE 1.597%  (429s)
+epoch   4  loss 0.0197  val MAPE 1.424%  (450s)
+epoch   5  loss 0.0176  val MAPE 0.810%  (452s) *
+epoch   6  loss 0.0140  val MAPE 1.404%  (454s)
+epoch   7  loss 0.0160  val MAPE 0.574%  (452s) *
+epoch   8  loss 0.0132  val MAPE 0.388%  (453s) *
+epoch   9  loss 0.0116  val MAPE 0.565%  (453s)
+epoch  10  loss 0.0103  val MAPE 0.321%  (455s) *
+epoch  11  loss 0.0086  val MAPE 0.472%  (451s)
+epoch  12  loss 0.0084  val MAPE 0.299%  (449s) *
+epoch  13  loss 0.0078  val MAPE 0.297%  (449s) *
+epoch  14  loss 0.0073  val MAPE 0.287%  (449s) *
+epoch  15  loss 0.0071  val MAPE 0.279%  (448s) *
+val         MAPE  MC-grey 3.52%  ->  cnn_N64 0.28%
+test        MAPE  MC-grey 3.52%  ->  cnn_N64 0.26%
+held_super  MAPE  MC-grey 3.38%  ->  cnn_N64 0.45%
+held_rough  MAPE  MC-grey 3.57%  ->  cnn_N64 0.55%
+best val MAPE 0.279% at epoch 15; weights -> ./weights/cnn_N64.pt

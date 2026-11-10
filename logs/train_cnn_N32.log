@@ -1,0 +1,47 @@
+cnn_N32: 3,593,297 params, device mps, 4200 train / 897 val samples
+val MAPE of uncorrected MC (grey): 4.50%
+epoch   1  loss 0.1486  val MAPE 1.324%  (66s) *
+epoch   2  loss 0.1229  val MAPE 1.810%  (60s)
+epoch   3  loss 0.1234  val MAPE 2.507%  (60s)
+epoch   4  loss 0.1167  val MAPE 2.208%  (59s)
+epoch   5  loss 0.1092  val MAPE 2.063%  (59s)
+epoch   6  loss 0.0875  val MAPE 1.926%  (59s)
+epoch   7  loss 0.0840  val MAPE 1.517%  (59s)
+epoch   8  loss 0.0721  val MAPE 1.511%  (884s)
+epoch   9  loss 0.0716  val MAPE 1.140%  (60s) *
+epoch  10  loss 0.0704  val MAPE 1.216%  (60s)
+epoch  11  loss 0.0676  val MAPE 1.218%  (61s)
+epoch  12  loss 0.0589  val MAPE 0.930%  (60s) *
+epoch  13  loss 0.0575  val MAPE 1.037%  (61s)
+epoch  14  loss 0.0598  val MAPE 1.150%  (60s)
+epoch  15  loss 0.0521  val MAPE 1.284%  (60s)
+epoch  16  loss 0.0566  val MAPE 1.288%  (60s)
+epoch  17  loss 0.0489  val MAPE 0.779%  (62s) *
+epoch  18  loss 0.0468  val MAPE 0.787%  (66s)
+epoch  19  loss 0.0452  val MAPE 0.864%  (64s)
+epoch  20  loss 0.0417  val MAPE 0.871%  (60s)
+epoch  21  loss 0.0423  val MAPE 0.711%  (63s) *
+epoch  22  loss 0.0358  val MAPE 0.759%  (64s)
+epoch  23  loss 0.0370  val MAPE 0.716%  (64s)
+epoch  24  loss 0.0369  val MAPE 0.753%  (64s)
+epoch  25  loss 0.0346  val MAPE 0.674%  (66s) *
+epoch  26  loss 0.0349  val MAPE 0.704%  (63s)
+epoch  27  loss 0.0337  val MAPE 1.231%  (325s)
+epoch  28  loss 0.0319  val MAPE 0.724%  (92s)
+epoch  29  loss 0.0312  val MAPE 0.592%  (135s) *
+epoch  30  loss 0.0268  val MAPE 0.573%  (1007s) *
+epoch  31  loss 0.0271  val MAPE 0.697%  (60s)
+epoch  32  loss 0.0254  val MAPE 0.574%  (60s)
+epoch  33  loss 0.0235  val MAPE 0.521%  (60s) *
+epoch  34  loss 0.0245  val MAPE 0.509%  (60s) *
+epoch  35  loss 0.0280  val MAPE 0.507%  (60s) *
+epoch  36  loss 0.0219  val MAPE 0.533%  (60s)
+epoch  37  loss 0.0228  val MAPE 0.489%  (71s) *
+epoch  38  loss 0.0203  val MAPE 0.476%  (71s) *
+epoch  39  loss 0.0201  val MAPE 0.479%  (73s)
+epoch  40  loss 0.0203  val MAPE 0.478%  (73s)
+val         MAPE  MC-grey 4.50%  ->  cnn_N32 0.48%
+test        MAPE  MC-grey 4.78%  ->  cnn_N32 0.68%
+held_super  MAPE  MC-grey 4.10%  ->  cnn_N32 1.05%
+held_rough  MAPE  MC-grey 5.27%  ->  cnn_N32 1.96%
+best val MAPE 0.476% at epoch 38; weights -> ./weights/cnn_N32.pt

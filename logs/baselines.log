@@ -1,0 +1,19 @@
+RF feature importance
+ euler                       0.286
+noise_hat                   0.263
+log_mcsmooth_over_mcgrey    0.216
+log_face_over_mcgrey        0.076
+log_mcgrey_over_N2          0.054
+log_mcbin_over_mcgrey       0.038
+N                           0.027
+aspect2                     0.014
+log_compactness             0.013
+aspect1                     0.013
+val         lookup  MAPE 1.70%
+val         rf      MAPE 0.38%
+test        lookup  MAPE 1.88%
+test        rf      MAPE 0.45%
+held_super  lookup  MAPE 1.15%
+held_super  rf      MAPE 0.56%
+held_rough  lookup  MAPE 2.16%
+held_rough  rf      MAPE 1.10%

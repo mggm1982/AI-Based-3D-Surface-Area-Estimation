@@ -1,0 +1,47 @@
+pointnet_N64: 742,209 params, device mps, 4200 train / 897 val samples
+val MAPE of uncorrected MC (grey): 3.52%
+epoch   1  loss 0.3376  val MAPE 2.297%  (19s) *
+epoch   2  loss 0.1784  val MAPE 1.944%  (19s) *
+epoch   3  loss 0.1546  val MAPE 1.809%  (19s) *
+epoch   4  loss 0.1307  val MAPE 1.887%  (19s)
+epoch   5  loss 0.1160  val MAPE 1.575%  (19s) *
+epoch   6  loss 0.1028  val MAPE 1.330%  (19s) *
+epoch   7  loss 0.0976  val MAPE 1.374%  (19s)
+epoch   8  loss 0.0924  val MAPE 1.423%  (19s)
+epoch   9  loss 0.0899  val MAPE 1.271%  (19s) *
+epoch  10  loss 0.0828  val MAPE 1.628%  (19s)
+epoch  11  loss 0.0854  val MAPE 1.312%  (19s)
+epoch  12  loss 0.0830  val MAPE 1.432%  (19s)
+epoch  13  loss 0.0861  val MAPE 1.602%  (19s)
+epoch  14  loss 0.0802  val MAPE 1.395%  (19s)
+epoch  15  loss 0.0830  val MAPE 1.257%  (19s) *
+epoch  16  loss 0.0818  val MAPE 1.413%  (19s)
+epoch  17  loss 0.0840  val MAPE 1.229%  (19s) *
+epoch  18  loss 0.0807  val MAPE 1.201%  (19s) *
+epoch  19  loss 0.0792  val MAPE 1.314%  (19s)
+epoch  20  loss 0.0782  val MAPE 1.130%  (19s) *
+epoch  21  loss 0.0781  val MAPE 1.368%  (19s)
+epoch  22  loss 0.0787  val MAPE 1.219%  (19s)
+epoch  23  loss 0.0778  val MAPE 1.156%  (19s)
+epoch  24  loss 0.0753  val MAPE 1.261%  (19s)
+epoch  25  loss 0.0743  val MAPE 1.307%  (19s)
+epoch  26  loss 0.0728  val MAPE 1.067%  (19s) *
+epoch  27  loss 0.0717  val MAPE 1.161%  (19s)
+epoch  28  loss 0.0683  val MAPE 1.116%  (19s)
+epoch  29  loss 0.0657  val MAPE 1.097%  (18s)
+epoch  30  loss 0.0668  val MAPE 1.106%  (18s)
+epoch  31  loss 0.0706  val MAPE 1.191%  (19s)
+epoch  32  loss 0.0678  val MAPE 1.132%  (18s)
+epoch  33  loss 0.0671  val MAPE 1.169%  (18s)
+epoch  34  loss 0.0667  val MAPE 1.255%  (18s)
+epoch  35  loss 0.0627  val MAPE 1.108%  (18s)
+epoch  36  loss 0.0630  val MAPE 1.048%  (19s) *
+epoch  37  loss 0.0619  val MAPE 1.119%  (18s)
+epoch  38  loss 0.0624  val MAPE 1.088%  (19s)
+epoch  39  loss 0.0610  val MAPE 1.046%  (19s) *
+epoch  40  loss 0.0596  val MAPE 1.078%  (19s)
+val         MAPE  MC-grey 3.52%  ->  pointnet_N64 1.05%
+test        MAPE  MC-grey 3.52%  ->  pointnet_N64 1.04%
+held_super  MAPE  MC-grey 3.38%  ->  pointnet_N64 0.95%
+held_rough  MAPE  MC-grey 3.57%  ->  pointnet_N64 1.32%
+best val MAPE 1.046% at epoch 39; weights -> ./weights/pointnet_N64.pt
